@@ -1,0 +1,70 @@
+.DonatelloEffect{
+	padding: 60px;
+	text-align: center;
+	background: #1abc9c;
+	color: black;
+	font-size: 30px;
+}
+
+body{
+	color: black;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 111px;
+	text-decoration: none;
+}
+
+/* Change colors */
+li a:hover{
+	background-color: #111;
+}
+
+/* The Lair Page */
+
+.TheLair{
+	padding: 10px;
+	text-align: center;
+	background: #6a5acd;
+	color: black;
+	font-size: 40px;
+}
+
+body{
+
+	margin: 400;
+	padding: 0;
+	font-family: "Time New Roman";
+	background: linear-gradient(-90deg, #4286f4, #b53fdd, #c73fdd);
+	background-size: 400%;
+	animation: bganimation 3s infinite;
+}
+
+/*Animation*/
+@keyframes bganimation{
+	50%{
+		background-position: 100% 50%;
+	}
+
+	0%{
+		background-position: 0% 50%;
+	}
+
+	-50%{
+		background-position: 100% 50%
+	}

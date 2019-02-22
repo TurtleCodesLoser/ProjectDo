@@ -1,0 +1,46 @@
+.About{
+	padding: 10px;
+	text-align: center;
+	background: #6a5acd;
+	color: black;
+	font-size: 30px;
+}
+
+body{
+
+	margin: 400;
+	padding: 0;
+	font-family: "Time New Roman";
+	background: linear-gradient(-90deg, #4286f4, #b53fdd, #c73fdd);
+	background-size: 400%;
+	animation: bganimation 5s infinite;
+}
+
+body{
+	color: black;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 25px;
+	text-decoration: none;
+}
+
+/* Change colors */
+li a:hover{
+	background-color: #111;
+}
